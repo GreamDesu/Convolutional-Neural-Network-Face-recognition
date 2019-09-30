@@ -2,7 +2,7 @@
 An python application that can recognize the faces of our classmates and give a small physical description:
 
 ## File description:
-  - **face-recognition.ipynb* - основной фаил с кодом по распознаванию лиц людей и обучением на датасете
+  - **face-recognition.ipynb** - основной фаил с кодом по распознаванию лиц людей и обучением на датасете
   - **master-file.ipynb** -облегченная версия файлаа с кодом по распознаванию лиц людей, без обучения
   - **api-tester.ipynb** - фаил для тестов различных API из Top Tens списка
   - **/data** - хранилище данных (samples, data_sets)
