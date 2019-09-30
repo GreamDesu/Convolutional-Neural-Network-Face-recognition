@@ -2,26 +2,24 @@
 An python application that can recognize the faces of our classmates and give a small physical description:
 
 ## File description:
-  - **face-recognition.ipynb** - основной фаил с кодом по распознаванию лиц людей и обучением на датасете
-  - **master-file.ipynb** -облегченная версия файлаа с кодом по распознаванию лиц людей, без обучения
-  - **api-tester.ipynb** - фаил для тестов различных API из Top Tens списка
-  - **/data** - хранилище данных (samples, data_sets)
-  - **/models** - модель для библиотеки dlib, которая распознает положение элементов лица
-  - **/weights** - предобученная модель взятая из http://vintage.winklerbros.net/facescrub.html, обученная на более 100.000 лиц 530 людей.
-  - **/images** - хранилище фотографий всех студентов из датасета
-  - **/images** - хранилище фотографий всех студентов из датасета
-  - **align.py**, **model.py**, **utils.py** - библиотеки, необходимые для правильной работы программы
-  - **finalized_model.sav** - дообученная нами вручную модель лиц, дополненная лицами студентов. За основу взят датасет из папки **/weights**
-  - **finalized_encoder.sav** - сохраненный encoder наших изображений
+  - **face-recognition.ipynb** - main file with code for recognizing people's faces and training on a dataset
+  - **master-file.ipynb** - lite version of the file with code for recognizing people's faces, without training
+  - **api-tester.ipynb** - file for tests of various APIs from the list
+  - **/models** - a model for the dlib library that recognizes the position of face elements
+  - **/weights** - pre-trained model taken from http://vintage.winklerbros.net/facescrub.html, trained for more than 100,000 pictures of 530 people.
+  - **/images** - storage of photos of all people from the dataset
+  - **align.py**, **model.py**, **utils.py** - some libs
+  - **finalized_model.sav** - a manually trained face model supplemented by student faces. Based on the dataset from the folder **/weights**
+  - **finalized_encoder.sav** - saved encoder of our images
   
 ## How to install:
-  * 0a. Если на ноутбуке нет веб-камеры:
-    Установите приложение Epoccam на свой телефон и подключите его к компьютеру
-  * 0b. Если вебкамера есть, то программа будет использовать её.
+  * 0a. In case you do not have a webcam on your Pc:
+    Install Epoccam software on your smartphone and connect to PC
+  * 0b. In case you do have webcam, programm will use it instead
   
-  1. Установите Python 3
-  2. Установите Jupiter Notebook с сайта jupyter.org
-  3. В терминале запустите:
+  1. Install Python 3
+  2. Install Jupiter Notebook from jupyter.org
+  3. In terminal run:
   ```
   pip install cmake
   pip install dlib
@@ -30,8 +28,9 @@ An python application that can recognize the faces of our classmates and give a 
   ```
 
 ## How to run:
-  1. Запустите Jupyter, он автоматически откроется в браузере
-  2. Откройте в нем фаил master-file.ipynb
-  3. В верхнем меню выбирите Kernel -> Restart Kernel and Run All Cells
+  1. Start Jupyter, it will automatically open in brower
+  2. Upload your dataset with person photos to ../images/%person-name%/ for all people you have
+  2. In Jupyter open face-recognition.ipynb file
+  3. Then restart Kernel by: Kernel -> Restart Kernel and Run All Cells
   4. Enjoy!
 
