@@ -15,9 +15,9 @@ An python application that can recognize the faces of our classmates and give a 
   - **finalized_encoder.sav** - сохраненный encoder наших изображений
   
 ## How to install:
-  0a. Если на ноутбуке нет веб-камеры:
+  * 0a. Если на ноутбуке нет веб-камеры:
     Установите приложение Epoccam на свой телефон и подключите его к компьютеру
-  0b. Если вебкамера есть, то программа будет использовать её.
+  * 0b. Если вебкамера есть, то программа будет использовать её.
   
   1. Установите Python 3
   2. Установите Jupiter Notebook с сайта jupyter.org
